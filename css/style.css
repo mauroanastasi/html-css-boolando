@@ -20,6 +20,8 @@ body{
 
 header{
     background-color:hwb(21 12% 2%);
+    position: sticky;
+    top: 0;
 }
 
 .container{
@@ -47,5 +49,5 @@ header{
 }
 
 .hicon{
-    
+    padding-left:200px;
 }
