@@ -64,6 +64,8 @@ main{
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+    align-items: center;
+    height: 1200px;
 }
 
 /* .bg-red {
@@ -132,4 +134,23 @@ footer ul li{
     color: #fff;
     padding: 20px;
     line-height: 20px;
+}
+
+.object{
+    position: absolute;
+}
+
+.marca{
+    font-size: smaller;
+}
+
+.price{
+    color: red;
+    font-size:smaller ;
+    padding-right: 5px;
+}
+
+.salde{
+    font-size: smaller;
+    text-decoration: line-through;
 }
