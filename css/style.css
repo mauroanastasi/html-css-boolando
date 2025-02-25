@@ -102,6 +102,12 @@ main img{
     bottom: 40px;
 }
 
+.offertee{
+    display: flex;
+    position: absolute;
+    bottom: 90px;
+}
+
 .saldo{
     background-color: red;
     color: #fff;
@@ -133,8 +139,10 @@ footer ul li{
 
 .content-f-left{
     color: #fff;
-    padding: 20px;
+    padding-top: 20px;
     line-height: 20px;
+    padding-left: 140px;
+
 }
 
 /* .object{
@@ -154,4 +162,31 @@ footer ul li{
 .salde{
     font-size: smaller;
     text-decoration: line-through;
+}
+
+.front{
+    display: block;
+}
+
+.back{
+    display: none;
+}
+
+.card:hover .front{
+    display: none;
+}
+
+.card:hover .back{
+    display: block;
+}
+
+.f-left-col{
+    width: 50%;
+}
+
+.f-right-col{
+    width: 50%;
+    color: #fff;
+   padding-left: 420px;
+   padding-top: 20px;
 }
