@@ -8,6 +8,12 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+header{
+    background-color:hwb(21 12% 2%);
+    position: sticky;
+    top: 0;
+}
+
 .header-container{
     max-width: 1100px;
     margin: 0 auto;
@@ -16,12 +22,6 @@ body{
     padding: 10px;
     color: #fff;
 
-}
-
-header{
-    background-color:hwb(21 12% 2%);
-    position: sticky;
-    top: 0;
 }
 
 .container{
@@ -50,4 +50,33 @@ header{
 
 .hicon{
     padding-left:200px;
+}
+
+main{
+    padding-top: 50px;
+}
+
+.main-container{
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.h900{
+    height: 1200px;
+}
+
+.colshopping{
+    width: 32%;
+    height: 500px;
+    background-color: bisque;
+}
+
+.sp{
+    justify-content: space-between;
 }
