@@ -200,14 +200,29 @@ footer ul li{
     padding: 5px;
 }
 
-.object:hover .backh{
+.backh{
+    font-size: x-large;
+    position: absolute;
+    background-color: #fff;
+    color: red;
+    top: 10px;
+    right: 0;
+    padding: 5px;
+}
+
+
+.backh{
     display: none;
 }
 
-.object:hover .heart{
+.heart{
     display: block;
 }
 
-.backh{
-    color: red;
+.card:hover .backh{
+    display: block;
+}
+
+.card:hover .heart{
+    display: none;
 }
