@@ -4,7 +4,48 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-container{
+    max-width: 1100px;
+    margin: 0 auto;
+    height: 50px;
+    display: flex;
+    padding: 10px;
+    color: #fff;
+
+}
+
+header{
+    background-color:hwb(21 12% 2%);
+}
+
 .container{
-    max width: 1100px;
-    margin:0 auto;
+    max-width: 1100px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.h-col-right{
+    width: 30%;
+    align-content: center;
+}
+
+.h-col-central{
+    width: 40%;
+    background-image: url(../img/boolean-logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+        
+}
+
+.h-col-left {
+    width: 30%;
+}
+
+.hicon{
+    
 }
