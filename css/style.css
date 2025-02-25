@@ -12,6 +12,7 @@ header{
     background-color:hwb(21 12% 2%);
     position: sticky;
     top: 0;
+    z-index: 1;
 }
 
 .header-container{
@@ -49,7 +50,8 @@ header{
 }
 
 .hicon{
-    padding-left:200px;
+    padding-left:83%;
+    padding-top: 5px;
 }
 
 main{
@@ -79,13 +81,32 @@ main{
 }
 
 .sp{
-    align-items: center;
+    justify-content: center;
 }
 
-.cadr{
+.card{
     width: 100%;
+    position: relative;
 }
 
 main img{
     max-width: 100%;
+}
+
+.offerte{
+    display: flex;
+    position: absolute;
+    bottom: 40px;
+}
+
+.saldo{
+    background-color: red;
+    color: #fff;
+    padding: 5px;
+}
+
+.charact{
+    background-color: green;
+    color: #fff;
+    padding: 5px;
 }
