@@ -1,3 +1,4 @@
+/* rule */
 *{
     margin: 0;
     padding: 0;
@@ -8,6 +9,13 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.container{
+    max-width: 1100px;
+    display: flex;
+    margin: 0 auto;
+}
+
+/* header */
 header{
     background-color:hwb(21 12% 2%);
     position: sticky;
@@ -25,11 +33,6 @@ header{
 
 }
 
-.container{
-    max-width: 1100px;
-    display: flex;
-    margin: 0 auto;
-}
 
 .h-col-right{
     width: 30%;
@@ -54,6 +57,7 @@ header{
     padding-top: 5px;
 }
 
+/* parte centrale */
 main{
     padding-top: 50px;
 }
@@ -68,19 +72,9 @@ main{
     height: 1200px;
 }
 
-/* .bg-red {
-    background-color: red;
-} */
-
-/* .h900{
-    height: 1200px;
-} */
-
 .colshopping{
     width: 32%;
     position: relative;
-    /* height: 500px; */
-    /* background-color: bisque; */
 }
 
 .sp{
@@ -96,6 +90,7 @@ main img{
     max-width: 100%;
 }
 
+/* info oggetti */
 .offerte{
     display: flex;
     position: absolute;
@@ -120,6 +115,22 @@ main img{
     padding: 5px;
 }
 
+.marca{
+    font-size: smaller;
+}
+
+.price{
+    color: red;
+    font-size:smaller ;
+    padding-right: 5px;
+}
+
+.salde{
+    font-size: smaller;
+    text-decoration: line-through;
+}
+
+/* footer */
 .footer-container{
     background-color: black;
     max-width: 100%;
@@ -145,25 +156,18 @@ footer ul li{
 
 }
 
-/* .object{
-    position: relative;
-} */
-
-.marca{
-    font-size: smaller;
+.f-left-col{
+    width: 50%;
 }
 
-.price{
-    color: red;
-    font-size:smaller ;
-    padding-right: 5px;
+.f-right-col{
+    width: 50%;
+    color: #fff;
+    padding-left: 420px;
+    padding-top: 20px;
 }
 
-.salde{
-    font-size: smaller;
-    text-decoration: line-through;
-}
-
+/* foto a scomparsa */
 .front{
     display: block;
 }
@@ -180,17 +184,7 @@ footer ul li{
     display: block;
 }
 
-.f-left-col{
-    width: 50%;
-}
-
-.f-right-col{
-    width: 50%;
-    color: #fff;
-    padding-left: 420px;
-    padding-top: 20px;
-}
-
+/* BONUS2 */
 .heart{
     font-size: x-large;
     position: absolute;
@@ -210,7 +204,6 @@ footer ul li{
     padding: 5px;
 }
 
-
 .backh{
     display: none;
 }
@@ -219,10 +212,10 @@ footer ul li{
     display: block;
 }
 
-.card:hover .backh{
+.object:hover .backh{
     display: block;
 }
 
-.card:hover .heart{
+.object:hover .heart{
     display: none;
 }
